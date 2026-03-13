@@ -11,7 +11,6 @@ cap = cv2.VideoCapture(0, cv2.CAP_DSHOW)
 count = 0
 
 print("Capturing images... Press Q to stop")
-
 while True:
     ret, frame = cap.read()
 
